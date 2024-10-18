@@ -12,7 +12,7 @@ import { EditArticleComponent } from './pages/edit-article/edit-article.componen
 const routes: Routes = [
   {path:"",component:LoginComponent},
   {path:"login",component:LoginComponent},
-  {path:"signup",component:SignupComponent, canActivate: [AuthenticateUserGuard]},
+  {path:"signup",component:SignupComponent},
   {path:"articles",component:ArticlesComponent, canActivate: [AuthenticateUserGuard]},
   {path:"add-article",component:AddArticleComponent, canActivate: [AuthenticateUserGuard]},
   {path: "edit-article/:id", component: EditArticleComponent, canActivate: [AuthenticateUserGuard] },
