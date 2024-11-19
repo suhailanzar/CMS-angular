@@ -11,7 +11,8 @@ import { article } from '../pages/add-article/add-article.component';
 })
 export class UserServiceService {
 
-  BASE_URL: string = 'http://localhost:3000/'
+  // BASE_URL: string = 'http://localhost:3000/'
+  BASE_URL: string = 'https://cms-backend-nestjs.onrender.com/'
 
 
   httpOptions = {
